@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>엄마, 생일 축하해요 🎂</title>
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 첫 화면 (버튼) -->
+    <div id="intro-screen" class="screen active">
+        <h1>사랑하는 이수연 엄마에게 💌</h1>
+        <button id="open-btn">편지 열어보기</button>
+    </div>
+
+    <!-- 편지 내용 화면 -->
+    <div id="letter-screen" class="screen">
+        <div id="floating-container"></div>
+        <div class="letter-paper">
+            <p class="greeting">엄마, 생일 정말 축하해!</p>
+            <p>저번 제주도 여행 가서 한지까지 다 같이 모여서 인생네컷 찍었던 게 요즘도 참 기억에 많이 남아. 사진 볼 때마다 기분이 참 좋아서, 앞으로도 우리 가족끼리 어디 갈 때마다 그렇게 예쁜 사진 더 많이 남기고 추억도 차곡차곡 쌓았으면 좋겠어.</p>
+            
+            <!-- 폴라로이드 사진 영역 -->
+            <div class="polaroid">
+                <img src="family_photo.jpg" alt="가족 사진">
+                <span>소중한 우리 가족 📸</span>
+            </div>
+
+            <p>사실 요즘 내가 주거 문제나 직장에 대해서 이런저런 고민이 많은 상황인데, 이럴 때 엄마를 비롯해서 아빠, 다혜까지 우리 가족이 나한테 어떤 어려움이나 부담을 주는 게 아니라, 그저 곁에 있다는 사실만으로도 정말 큰 힘이 되어준다는 걸 요즘따라 깊이 느끼고 있어. 늘 묵묵히 응원해줘서 정말 고마워.</p>
+            <p>그리고 그동안 영어학원 하면서 정말 고생 많았어. 앞으로 학원 일을 얼마나 더 오래 할지는 모르겠지만, 이제는 너무 무리하지 않았으면 좋겠어. 남은 기간 동안은 그냥 가벼운 취미 생활한다는 느낌으로 스트레스 받지 말고, 마음 편하고 즐겁게 일하자!</p>
+            <p>늘 건강 챙기는 거 잊지 마시고, 나도 앞으로 더 든든한 아들이 될게. 생일 다시 한번 진심으로 축하하고, 많이 사랑해! 오늘은 뭉클돈 또 가지 말고 아빠랑 다른 맛있는거 먹어 ㅋㅋㅋ</p>
+            <p class="signature">아들 승찬 올림</p>
+        </div>
+    </div>
+
+    <!-- JS 파일 연결 -->
+    <script src="script.js"></script>
+</body>
+</html>
